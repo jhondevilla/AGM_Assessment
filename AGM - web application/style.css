@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 1.3rem 10%;
+    padding-top: 2%;
+    padding-bottom: 40px;
+}
+
+.login{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    float: right;
+    border:none;
+    background-color:transparent;
+    outline:none;
+    cursor: pointer;
+}
+
+.rent-desc{
+    text-align: center;
+}
+
+.button-cont{
+    margin-top: 5%;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container2{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.logo
+{
+    padding-top: 5%;
+}
+
+.log-button{
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 15px;
+    text-align: center;
+    outline:none;
+    cursor: pointer;
+}
+
+.log-button2{
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size:20px;
+    text-align: center;
+    font-weight: 900;
+    outline:none;
+    cursor: pointer;
+}
+
+.edit-btm{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+h1{
+    font-size: 35px;
+}
+
+.rent-h1{
+    font-size: 35px;
+}
+
+.error {
+    color: #FF0000;
+}
+
+.form-cont{
+     margin-top: 10%;
+     text-align: center;
+}
+
+.log-h1{
+    margin-bottom: 3%;
+}
+
+.car{
+    margin-top: 3%;
+}
+
+.password-cont{
+    margin-top: 20px;
+}
+
+.error-cont{
+    margin-top: 8px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.table-cont{
+    margin-bottom: 2%;
+    padding-top: 5%;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+
+th {
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+.para{
+    margin-bottom: 4%;
+}
+
+.data-container{
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+
