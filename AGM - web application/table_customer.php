@@ -41,7 +41,6 @@ if(isset($_GET['delete'])){
                 <th>Description</th>
                 <th>Price</th>
                 <th>Image</th>
-                <!-- Add more columns as needed -->
             </tr>
             <?php
             $result = $conn->query("SELECT * FROM tbl_machinery");
@@ -56,7 +55,6 @@ if(isset($_GET['delete'])){
                         <td>
                             <?php 
                             if (isset($_SESSION['TBL_Login_ID'])){
-                                // Check if the image file exists
                                 $imagePath = "image/".$row['tbl_machinery_image'];
                                 if (file_exists($imagePath)) {
                                     echo '<img src="'.$imagePath.'" width="200">';
